@@ -46,7 +46,6 @@
                 <a href="http://daw-usgit.sauces.local/heras/LoginLogoffMulticapaPOO/tree/master" target="_blank" ><img  src="WEBBROOT/img/gitLab.png" alt=GitLab""></a>
                 <a href="https://github.com/ismaelom83/LoginLogoffMulticapaPOO"><img  src="WEBBROOT/img/gitHub.png" alt="GitHub"></a>
                 <a href="DOC/loginphpdocumentor/index.html"><img  src="WEBBROOT/img/documentor.png" alt="documeentor"></a>
-                <a href="../DWES.php">Salir De La Aplicacion</a> 
             </div>
         </footer> 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
