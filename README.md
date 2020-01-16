@@ -2,13 +2,14 @@
 
 ## Introduction
 
-¿Por qué alguien necesita esto?  
+>¿Por qué alguien necesita esto?  
 es una aplicacion login logoff que resuelve el problema de dejar ver  
 la aplicacion a alguien que esta logeado y alguien que no.
 
 ## Code Samples
 
-aqui tienes una muestra del codigo  de nuestra aplicacion si pulsamos salir nos saca del incio y nos lleva de nuevo al login
+>aqui tienes una muestra del codigo  de nuestra aplicacion
+//si pulsamos salir nos saca del incio y nos lleva de nuevo al login
 if (isset($_REQUEST["salir"])) {
     //destruye la sesion del usuario
     unset($_SESSION['DAW209POOusuario']);
@@ -34,7 +35,7 @@ sudo apt update
    
 sudo apt install apache2  
   
->Ajuste del cortafuegos para permitir el tráfico web  
+* Ajuste del cortafuegos para permitir el tráfico web  
   
 sudo ufw app list  
   
@@ -51,27 +52,31 @@ Available applications:
   OpenSSH  
   
   
-Despues instalamos mysql  
+* Despues instalamos mysql  
 
 sudo apt install mysql-server  
   
-luego instalamos el modelo de seguridad de mysql  
+* luego instalamos el modelo de seguridad de mysql  
 
 sudo mysql_secure_installation  
 
-Tambien deberemos instalar el modulo de PHP con el siguiente comando  
+* Tambien deberemos instalar el modulo de PHP con el siguiente comando  
 
 sudo apt install php  
 
-Reiniciamos el sistema y ya tendriamos nuestro servidor listo para funcionar  
+* Reiniciamos el sistema y ya tendriamos nuestro servidor listo para funcionar  
 
 sudo systemctl restart apache2  
 
-podemos comprobar con este comando que el servicio esta activo  
+* podemos comprobar con este comando que el servicio esta activo  
 
 sudo systemctl status apache2  
 
-Si el servicio esta activo ya tenemos nuestro servidor y ya podemos utilizar nuestra aplicacion de loginLogoff.
+> Si el servicio esta activo ya tenemos nuestro servidor y ya podemos utilizar nuestra aplicacion de loginLogoff.
+
+
+ 
+
 
 
  
