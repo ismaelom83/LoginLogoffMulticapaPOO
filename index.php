@@ -25,7 +25,8 @@ if(isset($_SESSION['DAW209POOusuario'])){
     }  
 }else {
     /**
-     * si no valida la entrada volvemos al login.
+     * si no valida la entrada volvemos al login
+     * yes
      */
     include_once $controladores["login"];
 }
