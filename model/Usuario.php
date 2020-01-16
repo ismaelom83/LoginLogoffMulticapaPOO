@@ -178,6 +178,15 @@ class Usuario{
         }
         return $usuario;
     }
+    
+//    public static function crearSesion($codUsuario, $password) {
+//        $aSesion = UsuarioPDO::crearSesion($codUsuario, $password);
+//          $resFetch = $resConsulta->fetchObject();
+//           //almacenamos en la sesion los campos que queramos mostrar de la base de datos del usuario.
+//            $_SESSION['usuarioLogin'] = $resultado['T01_CodUsuario'];
+//            $_SESSION['descLogin'] = $resultado['T01_DescUsuario'];
+//            return $_SESSION['usuarioLogin'];
+//    }
 
 }
 

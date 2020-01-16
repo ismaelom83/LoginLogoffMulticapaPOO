@@ -27,7 +27,6 @@ if (isset($_POST["enviar"])) {
         $password = hash("SHA256", $codUsuario . $_POST["password"]);
         //alamacenamos en una variable el valor dde la consulta validar usuario
         $obUsuario = Usuario::validarUsuario($codUsuario, $password);
-
         //si existe el usuario nos direcciona al index
         if (!is_null($obUsuario)) {
             $_SESSION["DAW209POOusuario"] = $codUsuario;
