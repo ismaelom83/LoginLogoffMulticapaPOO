@@ -27,7 +27,6 @@ class UsuarioPDO {
      * @return type devuelve un array con toos los valores de la base de datos del usuario
      */
     public function validarUsuario($codUsuario, $password) {
-
         //funcion para poner la hora en madrid
         date_default_timezone_set("Europe/Madrid");
         //almacenamos en una variable la instancicocion de datatime.

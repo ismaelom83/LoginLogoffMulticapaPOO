@@ -29,6 +29,7 @@ if (isset($_POST["enviar"])) {
         $obUsuario = Usuario::validarUsuario($codUsuario, $password);
         //si existe el usuario nos direcciona al index
         if (!is_null($obUsuario)) {
+            $_SESSION["DAW209POOusuario"] = $codUsuario;
             header("Location: index.php");
         } else {
             /**
